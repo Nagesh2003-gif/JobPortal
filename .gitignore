@@ -1,0 +1,51 @@
+# Logs
+**/npm-debug.log*
+**/yarn-debug.log*
+**/yarn-error.log*
+
+# Runtime data
+**/pids
+**/*.pid
+**/*.seed
+**/*.pid.lock
+
+# Node modules (ignore in both frontend1 and backend1)
+frontend1/node_modules/
+backend1/node_modules/
+
+# Build output
+frontend1/build/
+frontend1/dist/
+backend1/build/
+backend1/dist/
+
+# Environment files
+frontend1/.env
+backend1/.env
+
+# Optional environment files
+frontend1/.env.local
+frontend1/.env.development.local
+frontend1/.env.test.local
+frontend1/.env.production.local
+
+backend1/.env.local
+backend1/.env.development.local
+backend1/.env.test.local
+backend1/.env.production.local
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Misc
+*.log
+*.sqlite
+*.zip
+
+# Ignore coverage reports
+**/coverage/
