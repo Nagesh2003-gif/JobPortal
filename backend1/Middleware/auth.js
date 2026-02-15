@@ -57,7 +57,6 @@ export const isAuthenticated = catchAsyncErrors(async (req, res, next) => {
   }
 });
 
-
 export const isAuthorized = (...roles) => {
   console.log("hello")
   return (req, res, next) => {

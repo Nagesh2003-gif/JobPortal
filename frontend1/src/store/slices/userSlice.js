@@ -139,6 +139,7 @@ export const getUser = () => async (dispatch) => {
     dispatch(userSlice.actions.fetchUserFailed(error.response.data.message));
   }
 };
+
 export const logout = () => async (dispatch) => {
   try {
     const response = await axios.get(

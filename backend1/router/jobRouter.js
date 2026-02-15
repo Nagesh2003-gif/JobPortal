@@ -13,6 +13,4 @@ router.get("/getsinglejob/:id",isAuthenticated, getASingleJob)
 
 
 
-
-
 export default router;
